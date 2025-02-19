@@ -1,0 +1,41 @@
+
+input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+form {
+  width: 400px;
+}
+
+.input {
+  margin-bottom: 20px;
+}
+
+label{
+  font-weight: 700;
+}
+
+.input-error{
+  border-color: red;
+}
+
+.input-success{
+  border-color:  green;
+}
+.error-message {
+  color: red;
+}
+
+@media (max-width: 578px) {
+  .input{
+    width: 100%
+  }
+  form {
+    width: 300px;
+    margin: auto;
+  }
+ 
+}
